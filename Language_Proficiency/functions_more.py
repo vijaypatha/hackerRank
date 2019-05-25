@@ -84,3 +84,72 @@ def longword(lw):
     return max(lword, key = len)
 longword('I Love You 44@@# 5553344')
 
+
+# In[ ]:
+
+
+# find even values from a list 
+# then find the doubles of the evens
+# reduce 
+
+# using both named and anonymous function
+
+
+# In[11]:
+
+
+alist = [1,3,4,5,6,7,33,22]
+evens = list(filter(lambda n : n % 2 == 0,alist))
+print(evens)
+doubles = list(map(lambda i : i * 2, evens))
+print(doubles)
+
+
+# In[16]:
+
+
+alist = [1,3,4,5,6,7,33,22]
+even2 = list(map(lambda i : i % 2 == 0, alist))
+print(even2)
+
+
+# In[20]:
+
+
+list_a = [1, 2, 3]
+list_b = [10, 20, 30]
+  
+print(list(map(lambda x,y : x + y, list_a, list_b)))
+
+
+# In[22]:
+
+
+list_a = [1, 2, 3]
+list_b = [10, 20, 30]
+  
+print(list(map(lambda x,y : x * y, list_a, list_b)))
+
+
+# In[26]:
+
+
+list_a = [1, 2, 3]
+list_b = [10, 20, 30]
+  
+print(list(map(lambda x,y : x / y, list_a, list_b)))
+
+
+# In[33]:
+
+
+dist = int(input("how many mile?: "))
+kms = dist * 1.6
+print('{} miles is'.format(dist),kms, 'kms')
+
+
+# In[ ]:
+
+
+
+
