@@ -9,6 +9,7 @@ WHAT is in this file:
 2) COmparision on how to find doube a list using raw functions and inbuilt fuctions such as map and filter 
 3) longest word in a sentence 
 4) Miles to Kms
+5) Weekly Menu
 
 
 '''
@@ -160,6 +161,14 @@ print('{} miles is'.format(dist),kms, 'kms')
 
 
 # In[ ]:
+import random
+import pandas as pd
+recepics = ['veg Biryani','Black Bean Burger','Mint Rice','Brazilian Rice and Beans','Whole Grain Pasta','Brown Rice Chile','Tacos','Dal','EAT OUT!!']
+this_week_recepics = random.sample(recepics, 7)
+print(this_week_recepics)
+days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday', 'Sunday']
+weekly_shopping = pd.DataFrame({"weekday": days, "Recepies": this_week_recepics})
+weekly_shopping
 
 
 
