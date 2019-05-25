@@ -1,6 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
+# In[ ]:
 
+
+'''
+WHAT is in this file:
+1) raw functions and lambda function
+2) COmparision on how to find doube a list using raw functions and inbuilt fuctions such as map and filter 
+3) longest word in a sentence 
+4) Miles to Kms
+
+
+'''
 # In[2]:
 
 
